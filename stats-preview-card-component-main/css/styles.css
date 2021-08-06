@@ -66,6 +66,10 @@ img{
     padding: 3rem;
   }
 
+  .stat-head{
+    /* font-size:  0.7rem; */
+    padding: 0 1rem;
+  }
 }
 
 @media (max-width: 900px) {
