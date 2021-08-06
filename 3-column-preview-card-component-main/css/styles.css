@@ -1,0 +1,104 @@
+body {
+  color: white;
+  font-size: 0.98rem;
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2.0rem;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.65rem;
+  border: 0;
+  border-radius: 8px;
+}
+
+.work_area {
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  margin: auto 25rem;
+
+
+}
+
+.container p {
+  font-family: Lexend Deca;
+}
+
+.total_sedan {
+  border-radius: 15px 0 0 15px;
+  padding: 3rem;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.total_sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+.total_SUVs {
+  padding: 3rem;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.total_SUVs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.total_Luxury {
+  border-radius: 0px 15px 15px 0;
+  padding: 3rem;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.total_Luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 1780px) {
+  .container {
+    margin: auto 20rem;
+  }
+}
+
+
+@media (max-width: 1410px) {
+  .container {
+    margin: auto 10rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .work_area {
+    height: 120vh;
+
+  }
+  .container {
+    flex-direction: column;
+    margin: 5rem 2rem;
+  }
+
+  .total_sedan {
+    border-radius: 15px 15px 0 0;
+  }
+
+  .total_Luxury {
+    border-radius: 0px 0 15px 15px;
+  }
+
+
+}
